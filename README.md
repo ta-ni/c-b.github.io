@@ -1,4 +1,4 @@
-# React Template
+# C & B (test)
 
 ### How to start
 
