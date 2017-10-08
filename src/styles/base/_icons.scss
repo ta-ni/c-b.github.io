@@ -1,0 +1,33 @@
+%params {
+  display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+$font-Flaticon-musica-searcher: "\f100";
+$font-Flaticon-down-arrow: "\f101";
+$font-Flaticon-arrow-point-to-right: "\f102";
+
+%icon-searcher:before {
+  @extend %params;
+  content: $font-Flaticon-musica-searcher;
+}
+
+%icon-down-arrow:before {
+  @extend %params;
+  content: $font-Flaticon-down-arrow;
+}
+
+%icon-right-arrow:before {
+  @extend %params;
+  content: $font-Flaticon-arrow-point-to-right;
+}

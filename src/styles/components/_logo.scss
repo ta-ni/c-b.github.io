@@ -1,0 +1,9 @@
+.logo {
+  @extend %link;
+  font-size: $font-size-logo;
+  color: $active-text-color;
+}
+
+.logo__element {
+  font-size: $font-size-logo-element;
+}

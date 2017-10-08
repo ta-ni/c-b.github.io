@@ -1,0 +1,57 @@
+.footer {
+  background: url("../images/footer-bg.png") no-repeat center;
+  background-size: cover;
+  padding: 68px 0;
+}
+
+.footer__title {
+  margin-bottom: 25px;
+
+  color: $extra-color;
+  font-size: $font-size-logo-element;
+  font-family: $font-family-secondary;
+}
+
+.footer__subtitle {
+  margin-bottom: 30px;
+
+  color: $active-text-color;
+  text-transform: uppercase;
+}
+
+.footer__field {
+  position: relative;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.footer__icon {
+  @extend %icon-down-arrow;
+  position: absolute;
+  right: 23px;
+  top: 18px;
+
+  cursor: pointer;
+  color: $extra-color;
+}
+
+.footer__input {
+  @extend %input;
+  text-transform: uppercase;
+  border-radius: 25px;
+  padding: 15px 26px;
+  color: $extra-color;
+
+  &::-webkit-input-placeholder {
+    color: $extra-color;
+  }
+  &::-moz-placeholder {
+    color: $extra-color;
+  }
+  &:-moz-placeholder {
+    color: $extra-color;
+  }
+  &:-ms-input-placeholder {
+    color: $extra-color;
+  }
+}

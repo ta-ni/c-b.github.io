@@ -1,0 +1,113 @@
+.catalog {
+  padding: 100px 0 60px;
+}
+
+.catalog__title {
+  @extend %title;
+}
+
+.catalog__menu {
+  margin-bottom: 40px;
+}
+
+.catalog__menu-item {
+  @extend %link;
+  @extend %link-main-color;
+
+  margin: 0 28px;
+  text-transform: uppercase;
+
+  &_current {
+    @extend %link-current;
+  }
+}
+
+.catalog__item {
+  float: left;
+  width: 23.5%;
+  margin: 0 2% 36px 0;
+  position: relative;
+
+  &_last {
+    margin: 0 0 36px;
+  }
+}
+
+.catalog__image {
+  width: 100%;
+  margin-bottom: 28px;
+}
+
+.catalog__image-wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-bottom: 130%;
+}
+
+.catalog__image-content {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  margin: auto;
+  max-width: 100%;
+}
+
+.catalog__item-title {
+  margin-bottom: 8px;
+  font-size: $font-size-middle;
+  color: $active-text-color;
+}
+
+.catalog__text {
+  display: inline-block;
+
+  color: $text-color;
+  font-size: $font-size-middle;
+
+  &_active {
+    margin-left: 10px;
+    color: $element-color;
+  }
+
+  &_crossed-out {
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 100%;
+      top: 50%;
+      height: 1px;
+      background: $text-color;
+    }
+
+  }
+}
+
+.catalog__item-new {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+
+  font-size: $font-size-small;
+  color: $extra-color;
+  text-transform: uppercase;
+  border-radius: 12.5px;
+  padding: 0 10px;
+  line-height: 25px;
+  @include gradient(#1477d4, #1f96ef);
+}
+
+.catalog__button {
+  @extend %link;
+  @extend %link-main-color;
+  margin-top: 24px;
+
+  text-transform: uppercase;
+}

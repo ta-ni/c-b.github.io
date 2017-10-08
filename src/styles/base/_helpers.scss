@@ -1,0 +1,19 @@
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  width: 98%;
+  @media screen {
+    @media (min-width: $middle-screens) {
+      width: 750px;
+    }
+    @media (min-width: $large-screens) {
+      width: 960px;
+    }
+  }
+}

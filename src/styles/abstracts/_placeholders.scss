@@ -1,0 +1,35 @@
+%link {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+%link-main-color {
+  color: $text-color;
+
+  &:hover {
+    color: $active-text-color;
+  }
+}
+
+%link-current {
+  color: $active-text-color;
+  border-bottom: $border-extra;
+}
+
+%title {
+  margin-bottom: 58px;
+
+  color: $active-text-color;
+  font-size: $font-size-large;
+  font-family: $font-family-secondary;
+}
+
+%input {
+  outline: none;
+  background: none;
+  box-sizing: border-box;
+  width: 100%;
+  border: $border-field;
+
+}

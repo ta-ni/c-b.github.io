@@ -1,0 +1,53 @@
+// --- Color ----
+$main-color: #333333;
+$extra-color: #ffffff;
+
+$text-color: #999999;
+$active-text-color: #333333;
+
+$element-color: #fc411d;
+$border-color: #ededed;
+$extra-border-color: #2388db;
+$field-border-color: rgba(255, 255, 255, 0.3);
+
+$bg-color: $extra-color;
+
+$border: 1px solid $border-color;
+$border-field: 2px solid $field-border-color;
+$border-extra: 2px solid $extra-border-color;
+
+
+// ---- font ------
+$font-family-primary: 'Lato', sans-serif;
+$font-family-secondary: 'Raleway', sans-serif;
+
+$font-weight-bold: 700;
+$font-weight-medium: 600;
+$font-weight-normal: 500;
+
+$font-size-logo: 52px;
+$font-size-logo-element: 32px;
+
+$font-size-large: 58px;
+$font-size-middle: 16px;
+$font-size-small: 11px;
+
+$font-size-main: 12px;
+
+// ----- extra params -----
+$border-radius-main: 8px;
+$border-radius-extra: 15px;
+$field-radius: 5px;
+$button-width: 216px;
+
+// ----- screens ------
+$small-screens: 479px;
+$middle-screens: 768px;
+$large-screens: 993px;
+
+
+$header-height: 44px;
+
+// ----- z-index ------
+$z-index-header-menu: 2;
+$z-index-header: 1;

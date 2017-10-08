@@ -1,0 +1,15 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background: $extra-color;
+  font-size: $font-size-main;
+  font-family: $font-family-primary;
+  margin: 0 0 114px; /* bottom = footer height */
+
+  @media screen and (min-width: $middle-screens) {
+    margin: 0 0 114px;
+  }
+}
